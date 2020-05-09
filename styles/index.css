@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap);
+
+body {
+  background-color: #808080;
+  color: #D0D0D0;
+  font-family: 'Montserrat', serif;
+}
+
+.btn-container button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}

@@ -11,5 +11,11 @@
   "license": "ISC",
   "devDependencies": {
     "electron": "^8.2.5"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "googleapis": "^39.2.0",
+    "moment": "^2.25.3"
   }
 }
