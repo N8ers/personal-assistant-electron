@@ -1,20 +1,47 @@
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap);
+h1 {
+  font-size: 4em;
+  font-weight: lighter
+}
 
-body {
-  background-color: #808080;
-  color: #D0D0D0;
-  font-family: 'Montserrat', serif;
+#time-container {
+  margin-bottom: 60px;
+}
+
+.hour {
+  font-size: 3.5em;
+}
+
+.minute {
+  font-size: 2.5em;
+}
+
+.second {
+  font-size: 1.5em;
+}
+
+.am-pm {
+  font-size: 1em;
+}
+
+.day {
+  margin-top: 20px;
+  font-size: 2.5em;
+}
+
+.date {
+  font-size: 2em;  
 }
 
 .btn-container button {
   background-color: #ddd;
   border: none;
   color: black;
-  padding: 10px 20px;
+  padding: 20px 40px;
   text-align: center;
+  font-size: 1.5em;
   text-decoration: none;
   display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 16px;
+  border-radius: 23px;
 }

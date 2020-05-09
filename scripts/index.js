@@ -4,9 +4,15 @@ const moment = require('moment')
 
 let renderTime = function() {
   document.getElementById('time-container').innerHTML = `
-  <h2 id="time">${moment().format('HH:mm:ss a')}</h2>
-  <h3 class="date">${moment().format('dddd, MMM Do YYYY')}</h3>
+  <span class="hour">${moment().format('HH')}</span>
+  <span class="minute"> : ${moment().format('mm')}</span>
+  <span class="second"> : ${moment().format('ss')}</span>
+  <span class="am-pm">${moment().format('a')}</span>
+  <br />
+  <span class="day">${moment().format('dddd')}, </span>
+  <span class="date">${moment().format('MMM Do YYYY')}</span>
   `
 }
 
 setInterval(renderTime, 1000)
+// renderTime()
