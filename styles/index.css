@@ -32,6 +32,10 @@ h1 {
   font-size: 2em;  
 }
 
+.btn-container {
+  align-content: center;
+}
+
 .btn-container button {
   background-color: #ddd;
   border: none;
