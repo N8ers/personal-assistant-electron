@@ -1,4 +1,5 @@
 const axios = require('axios');
+const moment = require('moment')
 
 let CLIENT_ID = '452597098857-mdep05i3si61cgbqv210ti253pld6p1o.apps.googleusercontent.com';
 let API_KEY = 'Q3sk61C_BKtEWwg0RTGlcq3Z';
@@ -13,9 +14,18 @@ let optionalArgs = {
 
 function makeTable (data) {
   data.forEach(event => {
-    let li = document.createElement("li");
-    document.getElementById("calendarEvents").appendChild(li);
-    li.innerHTML += event.summary
+    let div = document.createElement("div");
+    document.getElementById("calendarEvents").appendChild(div);
+    div.innerHTML += `
+      <table class="event">
+        <td class="first-td">
+          ${moment(event.start.dateTime).format('h:mm a')}
+          </br>
+          ${moment(event.end.dateTime).format('h:mm a')}
+        </td>
+        <td class="second-td">${event.summary}</td>
+      </table>
+    `
   })
 }
 
