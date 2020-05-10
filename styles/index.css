@@ -7,6 +7,12 @@ h1 {
   font-weight: bold;
 }
 
+#time-placeholder {
+  height: 117px;
+  width: 50%;
+  text-align: center;
+}
+
 .hour {
   font-size: 3.5em;
   font-weight: bold;

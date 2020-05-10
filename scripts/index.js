@@ -13,4 +13,3 @@ let renderTime = function() {
 }
 
 setInterval(renderTime, 1000)
-// renderTime()
