@@ -11,18 +11,18 @@ async function getWeather() {
   let day4 = response.data.daily.data[3];
   let day5 = response.data.daily.data[4];
   document.getElementById("temp-template").innerHTML = `
-    <h1>${current.temperature} deg</h1>
-    <span>${current.summary}</span>
-    <span></span>
+    <div class="current-temp">${current.temperature}&deg; F</div>
+    <div class="current-summary">${current.summary}</div>
+    <div class="comming-days">${response.data.daily.summary}</div>
 
     <table style="width:100%">
       <tr><th>Today</th><th>Tomorrow</th><th>Day3</th><th>Day4</th><th>Day5</th></tr>
       <tr>
-        <td><span>${today.icon}</span><br/><span>${today.temperatureHigh}</span> | <span>${today.temperatureLow}</span></td>
-        <td><span>${day2.icon}</span><br/><span>${day2.temperatureHigh}</span> | <span>${day2.temperatureLow}</span></td>
-        <td><span>${day3.icon}</span><br/><span>${day3.temperatureHigh}</span> | <span>${day3.temperatureLow}</span></td>
-        <td><span>${day4.icon}</span><br/><span>${day4.temperatureHigh}</span> | <span>${day4.temperatureLow}</span></td>
-        <td><span>${day5.icon}</span><br/><span>${day5.temperatureHigh}</span> | <span>${day5.temperatureLow}</span></td>
+        <td class="weatherbox"><span>${today.icon}</span><br/><span>${today.temperatureHigh}</span> | <span>${today.temperatureLow}</span></td>
+        <td class="weatherbox"><span>${day2.icon}</span><br/><span>${day2.temperatureHigh}</span> | <span>${day2.temperatureLow}</span></td>
+        <td class="weatherbox"><span>${day3.icon}</span><br/><span>${day3.temperatureHigh}</span> | <span>${day3.temperatureLow}</span></td>
+        <td class="weatherbox"><span>${day4.icon}</span><br/><span>${day4.temperatureHigh}</span> | <span>${day4.temperatureLow}</span></td>
+        <td class="weatherbox"><span>${day5.icon}</span><br/><span>${day5.temperatureHigh}</span> | <span>${day5.temperatureLow}</span></td>
       </tr>
     </table>
   `;

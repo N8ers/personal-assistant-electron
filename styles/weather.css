@@ -11,6 +11,24 @@
   border-radius: 16px;
 }
 
+.current-temp {
+  font-size: 4em;
+}
+
+.current-summary {
+  font-size: 2em;
+}
+
+.commint-days {
+  font-size: 1em;
+}
+
 table, th, td {
+  border-collapse: collapse;
   border: 1px solid black;
+}
+
+.weatherbox {
+  width: 150px;
+  height: 200px;
 }
