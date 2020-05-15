@@ -19,8 +19,9 @@
   font-size: 2em;
 }
 
-.commint-days {
-  font-size: 1em;
+.comming-days {
+  font-size: 1.5em;
+  margin-bottom: 10px;
 }
 
 table, th, td {
@@ -30,5 +31,9 @@ table, th, td {
 
 .weatherbox {
   width: 150px;
-  height: 200px;
+  height: 100px;
+}
+
+.hi-lo {
+  text-align: center;
 }
