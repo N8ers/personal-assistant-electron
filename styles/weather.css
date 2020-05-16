@@ -11,6 +11,15 @@
   border-radius: 16px;
 }
 
+.current-icon {
+  padding-top: 12px;
+  margin-right: 25px;
+}
+
+.current-icon img {
+  transform: scale(2.5);
+}
+
 .current-temp {
   font-size: 4em;
 }
@@ -30,10 +39,16 @@ table, th, td {
 }
 
 .weatherbox {
-  width: 150px;
+  width: 130px;
   height: 100px;
+}
+
+.card-icon {
+  text-align: center;
+  transform: scale(1.2);
 }
 
 .hi-lo {
   text-align: center;
+  font-weight: 800;
 }
