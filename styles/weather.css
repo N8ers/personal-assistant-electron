@@ -11,8 +11,12 @@
   border-radius: 16px;
 }
 
+#temp-template {
+  margin-top: 20px;
+}
+
 .current-icon {
-  padding-top: 12px;
+  margin-left: 40px;
   margin-right: 25px;
 }
 
@@ -33,9 +37,18 @@
   margin-bottom: 10px;
 }
 
+.forcast-container {
+  width: 98%;
+}
+
 table, th, td {
   border-collapse: collapse;
   border: 1px solid black;
+  margin: 0 auto;
+}
+
+th {
+  width: 130px;
 }
 
 .weatherbox {

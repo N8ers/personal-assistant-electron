@@ -17,16 +17,18 @@ async function getWeather() {
     <div class="current-summary">${current.summary}</div>
     <div class="comming-days">${response.data.daily.summary}</div>
 
-    <table style="width:100%">
-      <tr><th>Today</th><th>Tomorrow</th><th>Day3</th><th>Day4</th><th>Day5</th></tr>
-      <tr>
-        <td class="weatherbox"><div class="card-icon" id="todayIcon"></div><div class="hi-lo">${Math.round(today.temperatureHigh)}&deg;F | ${Math.round(today.temperatureLow)}&deg;F</div></td>
-        <td class="weatherbox"><div class="card-icon" id="day2Icon"></div> <div class="hi-lo">${Math.round(day2.temperatureHigh)}&deg;F | ${Math.round(day2.temperatureLow)}&deg;F</div></td>
-        <td class="weatherbox"><div class="card-icon" id="day3Icon"></div> <div class="hi-lo">${Math.round(day3.temperatureHigh)}&deg;F | ${Math.round(day3.temperatureLow)}&deg;F</div></td>
-        <td class="weatherbox"><div class="card-icon" id="day4Icon"></div> <div class="hi-lo">${Math.round(day4.temperatureHigh)}&deg;F | ${Math.round(day4.temperatureLow)}&deg;F</div></td>
-        <td class="weatherbox"><div class="card-icon" id="day5Icon"></div> <div class="hi-lo">${Math.round(day5.temperatureHigh)}&deg;F | ${Math.round(day5.temperatureLow)}&deg;F</div></td>
-      </tr>
-    </table>
+    <div class="forcast-container">
+      <table style="width:100%">
+        <tr><th>Today</th><th>Tomorrow</th><th>Day3</th><th>Day4</th><th>Day5</th></tr>
+        <tr>
+          <td class="weatherbox"><div class="card-icon" id="todayIcon"></div><div class="hi-lo">${Math.round(today.temperatureHigh)}&deg;F | ${Math.round(today.temperatureLow)}&deg;F</div></td>
+          <td class="weatherbox"><div class="card-icon" id="day2Icon"></div> <div class="hi-lo">${Math.round(day2.temperatureHigh)}&deg;F | ${Math.round(day2.temperatureLow)}&deg;F</div></td>
+          <td class="weatherbox"><div class="card-icon" id="day3Icon"></div> <div class="hi-lo">${Math.round(day3.temperatureHigh)}&deg;F | ${Math.round(day3.temperatureLow)}&deg;F</div></td>
+          <td class="weatherbox"><div class="card-icon" id="day4Icon"></div> <div class="hi-lo">${Math.round(day4.temperatureHigh)}&deg;F | ${Math.round(day4.temperatureLow)}&deg;F</div></td>
+          <td class="weatherbox"><div class="card-icon" id="day5Icon"></div> <div class="hi-lo">${Math.round(day5.temperatureHigh)}&deg;F | ${Math.round(day5.temperatureLow)}&deg;F</div></td>
+        </tr>
+      </table>
+    </div>
   `;
 
   let currentIcon = document.getElementById('currentIcon')
