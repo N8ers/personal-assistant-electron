@@ -1,0 +1,21 @@
+.todo {
+  width: 100%;
+  background-color: #686868;
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+
+.first-td {
+  width: 32px;
+  background-color: #585858;
+  border-right: 1px solid black;
+}
+
+.checkbox {
+  transform: scale(2);
+  margin-left: 10px;
+}
+
+.second-td {
+  font-size: 1.5em;
+}
