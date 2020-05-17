@@ -5,9 +5,9 @@ A personal assistant built with [electron.js](https://www.electronjs.org/), mean
 
 # Motivation
 I wanted a little touch screen tool that I could use to quickly see the date, calendar, weather, todo list, and market news. I also just wanted to play with tinker toys.
-![](images/home.jpg)
-![](images/back.jpg)
-![](images/weather.jpg)
+![](images/home.jpg | width=100)
+![](images/back.jpg | width=100)
+![](images/weather.jpg | width=100)
   
 # Hardware
 This project was meant to run on a Raspberry pi 3 and the [Elecrow 5-inch Touch Screen](https://www.amazon.com/gp/product/B013JECYF2/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1). It is gracefully held together with rubber bands and tinker toys.
