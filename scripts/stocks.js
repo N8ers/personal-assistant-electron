@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-let key = `bqrcr17rh5rabvm5qoog`;
+let key = ``;
 
 function makeTable(data) {
   data.forEach(story => {

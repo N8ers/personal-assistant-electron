@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-let key = `e20fe780791cad1d4d4d7b8484f970a5`;
+let key = ``;
 
 async function getWeather() {
   let response = await axios.get(`https://api.darksky.net/forecast/${key}/39.6867292,-86.2898475`)
