@@ -4,7 +4,7 @@ A personal assistant built with [electron.js](https://www.electronjs.org/), mean
 
 
 # Motivation
-I wanted a little touch screen tool that I could use to quickly see the date, calendar, weather, todo list, and market news. I also just wanted to play with tinker toys.
+I wanted a little touch screen tool that I could use to quickly see the date, calendar, weather, todo list, and market news. I also just wanted to play with tinker toys. \
 ![](images/home.jpg)
 ![](images/back.jpg)
 ![](images/weather.jpg)
