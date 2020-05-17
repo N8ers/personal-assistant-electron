@@ -14,9 +14,9 @@ This project was meant to run on a Raspberry pi 3 and the [Elecrow 5-inch Touch 
 
   
 # File Structure
-**main.js** - this is what kicks off the app. If you want to see your mouse, change screen size, or toggle devtools - this is where you do it.
-**index.html** - the main "landing page", it connects the other html files together.
-**base.css** - contains shared css - if you want to make it more colorful you should start there.
+**main.js** - this is what kicks off the app. If you want to see your mouse, change screen size, or toggle devtools - this is where you do it. \
+**index.html** - the main "landing page", it connects the other html files together. \
+**base.css** - contains shared css - if you want to make it more colorful you should start there. \
 **everything else** - outside of the above the app is broken down into sections "weather", "stocks", "todo", and "calendar". Each file has a css file (in the styles folder) and a JavaScript file (in the scripts folder)
   
 # API(s)
